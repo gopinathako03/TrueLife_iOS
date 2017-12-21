@@ -1,0 +1,6 @@
+framework module Pods_TrueLife {
+  umbrella header "Pods-TrueLife-umbrella.h"
+
+  export *
+  module * { export * }
+}
