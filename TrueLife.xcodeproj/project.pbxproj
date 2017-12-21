@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72FAABB21FEBDC79004C7A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FAABB11FEBDC79004C7A7E /* AppDelegate.swift */; };
+		72FAABB41FEBDC79004C7A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FAABB31FEBDC79004C7A7E /* ViewController.swift */; };
+		72FAABB71FEBDC79004C7A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FAABB51FEBDC79004C7A7E /* Main.storyboard */; };
+		72FAABBA1FEBDC79004C7A7E /* TrueLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72FAABB81FEBDC79004C7A7E /* TrueLife.xcdatamodeld */; };
+		72FAABBC1FEBDC79004C7A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FAABBB1FEBDC79004C7A7E /* Assets.xcassets */; };
+		72FAABBF1FEBDC79004C7A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FAABBD1FEBDC79004C7A7E /* LaunchScreen.storyboard */; };
+		72FAABCA1FEBDC79004C7A7E /* TrueLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FAABC91FEBDC79004C7A7E /* TrueLifeTests.swift */; };
+		72FAABD51FEBDC7A004C7A7E /* TrueLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FAABD41FEBDC7A004C7A7E /* TrueLifeUITests.swift */; };
+		C3883A02D66BA3627F4C7AFF /* Pods_TrueLifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A656ACCFF13E5161E0CDD5 /* Pods_TrueLifeUITests.framework */; };
+		CD400E7697E7B7CFB0151E5D /* Pods_TrueLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF5D97B7B1929CF045792B8 /* Pods_TrueLifeTests.framework */; };
+		DE21C7ED5D85DF709D61E541 /* Pods_TrueLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4263E51B894E41E25C3CCE7 /* Pods_TrueLife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72FAABC61FEBDC79004C7A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FAABA61FEBDC79004C7A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FAABAD1FEBDC79004C7A7E;
+			remoteInfo = TrueLife;
+		};
+		72FAABD11FEBDC79004C7A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FAABA61FEBDC79004C7A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FAABAD1FEBDC79004C7A7E;
+			remoteInfo = TrueLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F21C8ADB0C9ABC8FC488735 /* Pods-TrueLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrueLifeTests/Pods-TrueLifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3EF5D97B7B1929CF045792B8 /* Pods_TrueLifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueLifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		500A570D7A1C64DAC3B806CB /* Pods-TrueLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrueLifeUITests/Pods-TrueLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72FAABAE1FEBDC79004C7A7E /* TrueLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FAABB11FEBDC79004C7A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72FAABB31FEBDC79004C7A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72FAABB61FEBDC79004C7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72FAABB91FEBDC79004C7A7E /* TrueLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrueLife.xcdatamodel; sourceTree = "<group>"; };
+		72FAABBB1FEBDC79004C7A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FAABBE1FEBDC79004C7A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72FAABC01FEBDC79004C7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FAABC51FEBDC79004C7A7E /* TrueLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FAABC91FEBDC79004C7A7E /* TrueLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLifeTests.swift; sourceTree = "<group>"; };
+		72FAABCB1FEBDC79004C7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FAABD01FEBDC79004C7A7E /* TrueLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FAABD41FEBDC7A004C7A7E /* TrueLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLifeUITests.swift; sourceTree = "<group>"; };
+		72FAABD61FEBDC7A004C7A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4AD7B2E1BED2EE47F51710 /* Pods-TrueLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrueLife/Pods-TrueLife.release.xcconfig"; sourceTree = "<group>"; };
+		8611DFCD27F44A3F7A4318B8 /* Pods-TrueLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrueLifeTests/Pods-TrueLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACADB657B5899E102DE09A16 /* Pods-TrueLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrueLife/Pods-TrueLife.debug.xcconfig"; sourceTree = "<group>"; };
+		E4263E51B894E41E25C3CCE7 /* Pods_TrueLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B08F086A117CE3C23C7DA2 /* Pods-TrueLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrueLifeUITests/Pods-TrueLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9A656ACCFF13E5161E0CDD5 /* Pods_TrueLifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueLifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72FAABAB1FEBDC79004C7A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE21C7ED5D85DF709D61E541 /* Pods_TrueLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FAABC21FEBDC79004C7A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD400E7697E7B7CFB0151E5D /* Pods_TrueLifeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FAABCD1FEBDC79004C7A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3883A02D66BA3627F4C7AFF /* Pods_TrueLifeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C619EA64AD7C8048564A141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB657B5899E102DE09A16 /* Pods-TrueLife.debug.xcconfig */,
+				7F4AD7B2E1BED2EE47F51710 /* Pods-TrueLife.release.xcconfig */,
+				8611DFCD27F44A3F7A4318B8 /* Pods-TrueLifeTests.debug.xcconfig */,
+				2F21C8ADB0C9ABC8FC488735 /* Pods-TrueLifeTests.release.xcconfig */,
+				F8B08F086A117CE3C23C7DA2 /* Pods-TrueLifeUITests.debug.xcconfig */,
+				500A570D7A1C64DAC3B806CB /* Pods-TrueLifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72FAABA51FEBDC79004C7A7E = {
+			isa = PBXGroup;
+			children = (
+				72FAABB01FEBDC79004C7A7E /* TrueLife */,
+				72FAABC81FEBDC79004C7A7E /* TrueLifeTests */,
+				72FAABD31FEBDC7A004C7A7E /* TrueLifeUITests */,
+				72FAABAF1FEBDC79004C7A7E /* Products */,
+				6C619EA64AD7C8048564A141 /* Pods */,
+				A00B2BF4A218892E22922338 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72FAABAF1FEBDC79004C7A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72FAABAE1FEBDC79004C7A7E /* TrueLife.app */,
+				72FAABC51FEBDC79004C7A7E /* TrueLifeTests.xctest */,
+				72FAABD01FEBDC79004C7A7E /* TrueLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72FAABB01FEBDC79004C7A7E /* TrueLife */ = {
+			isa = PBXGroup;
+			children = (
+				72FAABB11FEBDC79004C7A7E /* AppDelegate.swift */,
+				72FAABB31FEBDC79004C7A7E /* ViewController.swift */,
+				72FAABB51FEBDC79004C7A7E /* Main.storyboard */,
+				72FAABBB1FEBDC79004C7A7E /* Assets.xcassets */,
+				72FAABBD1FEBDC79004C7A7E /* LaunchScreen.storyboard */,
+				72FAABC01FEBDC79004C7A7E /* Info.plist */,
+				72FAABB81FEBDC79004C7A7E /* TrueLife.xcdatamodeld */,
+			);
+			path = TrueLife;
+			sourceTree = "<group>";
+		};
+		72FAABC81FEBDC79004C7A7E /* TrueLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				72FAABC91FEBDC79004C7A7E /* TrueLifeTests.swift */,
+				72FAABCB1FEBDC79004C7A7E /* Info.plist */,
+			);
+			path = TrueLifeTests;
+			sourceTree = "<group>";
+		};
+		72FAABD31FEBDC7A004C7A7E /* TrueLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72FAABD41FEBDC7A004C7A7E /* TrueLifeUITests.swift */,
+				72FAABD61FEBDC7A004C7A7E /* Info.plist */,
+			);
+			path = TrueLifeUITests;
+			sourceTree = "<group>";
+		};
+		A00B2BF4A218892E22922338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4263E51B894E41E25C3CCE7 /* Pods_TrueLife.framework */,
+				3EF5D97B7B1929CF045792B8 /* Pods_TrueLifeTests.framework */,
+				F9A656ACCFF13E5161E0CDD5 /* Pods_TrueLifeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72FAABAD1FEBDC79004C7A7E /* TrueLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FAABD91FEBDC7A004C7A7E /* Build configuration list for PBXNativeTarget "TrueLife" */;
+			buildPhases = (
+				371E33204A3849FBF9CB1E7B /* [CP] Check Pods Manifest.lock */,
+				72FAABAA1FEBDC79004C7A7E /* Sources */,
+				72FAABAB1FEBDC79004C7A7E /* Frameworks */,
+				72FAABAC1FEBDC79004C7A7E /* Resources */,
+				DF479E29B93D4CAF846895AE /* [CP] Embed Pods Frameworks */,
+				208FAD173F28F9BBAE50A917 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueLife;
+			productName = TrueLife;
+			productReference = 72FAABAE1FEBDC79004C7A7E /* TrueLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72FAABC41FEBDC79004C7A7E /* TrueLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FAABDC1FEBDC7A004C7A7E /* Build configuration list for PBXNativeTarget "TrueLifeTests" */;
+			buildPhases = (
+				194A101CF9D240E3CA547E29 /* [CP] Check Pods Manifest.lock */,
+				72FAABC11FEBDC79004C7A7E /* Sources */,
+				72FAABC21FEBDC79004C7A7E /* Frameworks */,
+				72FAABC31FEBDC79004C7A7E /* Resources */,
+				2B0750AEE947FD7E743159E2 /* [CP] Embed Pods Frameworks */,
+				1AE40E57EF28446FAFC31F0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FAABC71FEBDC79004C7A7E /* PBXTargetDependency */,
+			);
+			name = TrueLifeTests;
+			productName = TrueLifeTests;
+			productReference = 72FAABC51FEBDC79004C7A7E /* TrueLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72FAABCF1FEBDC79004C7A7E /* TrueLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FAABDF1FEBDC7A004C7A7E /* Build configuration list for PBXNativeTarget "TrueLifeUITests" */;
+			buildPhases = (
+				021F54DC01BF00F10D826ED1 /* [CP] Check Pods Manifest.lock */,
+				72FAABCC1FEBDC79004C7A7E /* Sources */,
+				72FAABCD1FEBDC79004C7A7E /* Frameworks */,
+				72FAABCE1FEBDC79004C7A7E /* Resources */,
+				51D1B4DC5BD4D70410883F2F /* [CP] Embed Pods Frameworks */,
+				FA611183A4829EB6D5C47C97 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FAABD21FEBDC79004C7A7E /* PBXTargetDependency */,
+			);
+			name = TrueLifeUITests;
+			productName = TrueLifeUITests;
+			productReference = 72FAABD01FEBDC79004C7A7E /* TrueLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72FAABA61FEBDC79004C7A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Angler;
+				TargetAttributes = {
+					72FAABAD1FEBDC79004C7A7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					72FAABC41FEBDC79004C7A7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72FAABAD1FEBDC79004C7A7E;
+					};
+					72FAABCF1FEBDC79004C7A7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72FAABAD1FEBDC79004C7A7E;
+					};
+				};
+			};
+			buildConfigurationList = 72FAABA91FEBDC79004C7A7E /* Build configuration list for PBXProject "TrueLife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72FAABA51FEBDC79004C7A7E;
+			productRefGroup = 72FAABAF1FEBDC79004C7A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72FAABAD1FEBDC79004C7A7E /* TrueLife */,
+				72FAABC41FEBDC79004C7A7E /* TrueLifeTests */,
+				72FAABCF1FEBDC79004C7A7E /* TrueLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72FAABAC1FEBDC79004C7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FAABBF1FEBDC79004C7A7E /* LaunchScreen.storyboard in Resources */,
+				72FAABBC1FEBDC79004C7A7E /* Assets.xcassets in Resources */,
+				72FAABB71FEBDC79004C7A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FAABC31FEBDC79004C7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FAABCE1FEBDC79004C7A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		021F54DC01BF00F10D826ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrueLifeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		194A101CF9D240E3CA547E29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrueLifeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AE40E57EF28446FAFC31F0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueLifeTests/Pods-TrueLifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		208FAD173F28F9BBAE50A917 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueLife/Pods-TrueLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B0750AEE947FD7E743159E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrueLifeTests/Pods-TrueLifeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueLifeTests/Pods-TrueLifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		371E33204A3849FBF9CB1E7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrueLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D1B4DC5BD4D70410883F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueLifeUITests/Pods-TrueLifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF479E29B93D4CAF846895AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueLife/Pods-TrueLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA611183A4829EB6D5C47C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrueLifeUITests/Pods-TrueLifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72FAABAA1FEBDC79004C7A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FAABBA1FEBDC79004C7A7E /* TrueLife.xcdatamodeld in Sources */,
+				72FAABB41FEBDC79004C7A7E /* ViewController.swift in Sources */,
+				72FAABB21FEBDC79004C7A7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FAABC11FEBDC79004C7A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FAABCA1FEBDC79004C7A7E /* TrueLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FAABCC1FEBDC79004C7A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FAABD51FEBDC7A004C7A7E /* TrueLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72FAABC71FEBDC79004C7A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FAABAD1FEBDC79004C7A7E /* TrueLife */;
+			targetProxy = 72FAABC61FEBDC79004C7A7E /* PBXContainerItemProxy */;
+		};
+		72FAABD21FEBDC79004C7A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FAABAD1FEBDC79004C7A7E /* TrueLife */;
+			targetProxy = 72FAABD11FEBDC79004C7A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72FAABB51FEBDC79004C7A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72FAABB61FEBDC79004C7A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72FAABBD1FEBDC79004C7A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72FAABBE1FEBDC79004C7A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72FAABD71FEBDC7A004C7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72FAABD81FEBDC7A004C7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72FAABDA1FEBDC7A004C7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACADB657B5899E102DE09A16 /* Pods-TrueLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RMVZ7ABE82;
+				INFOPLIST_FILE = TrueLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angler.truelife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "797e7cea-48c5-4037-9954-5477899d40b7";
+				PROVISIONING_PROFILE_SPECIFIER = TrueLifeDev;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72FAABDB1FEBDC7A004C7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4AD7B2E1BED2EE47F51710 /* Pods-TrueLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RMVZ7ABE82;
+				INFOPLIST_FILE = TrueLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angler.truelife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "797e7cea-48c5-4037-9954-5477899d40b7";
+				PROVISIONING_PROFILE_SPECIFIER = TrueLifeDev;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72FAABDD1FEBDC7A004C7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8611DFCD27F44A3F7A4318B8 /* Pods-TrueLifeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrueLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angler.TrueLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueLife.app/TrueLife";
+			};
+			name = Debug;
+		};
+		72FAABDE1FEBDC7A004C7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F21C8ADB0C9ABC8FC488735 /* Pods-TrueLifeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrueLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angler.TrueLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueLife.app/TrueLife";
+			};
+			name = Release;
+		};
+		72FAABE01FEBDC7A004C7A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B08F086A117CE3C23C7DA2 /* Pods-TrueLifeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrueLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angler.TrueLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrueLife;
+			};
+			name = Debug;
+		};
+		72FAABE11FEBDC7A004C7A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500A570D7A1C64DAC3B806CB /* Pods-TrueLifeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrueLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angler.TrueLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrueLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72FAABA91FEBDC79004C7A7E /* Build configuration list for PBXProject "TrueLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FAABD71FEBDC7A004C7A7E /* Debug */,
+				72FAABD81FEBDC7A004C7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FAABD91FEBDC7A004C7A7E /* Build configuration list for PBXNativeTarget "TrueLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FAABDA1FEBDC7A004C7A7E /* Debug */,
+				72FAABDB1FEBDC7A004C7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FAABDC1FEBDC7A004C7A7E /* Build configuration list for PBXNativeTarget "TrueLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FAABDD1FEBDC7A004C7A7E /* Debug */,
+				72FAABDE1FEBDC7A004C7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FAABDF1FEBDC7A004C7A7E /* Build configuration list for PBXNativeTarget "TrueLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FAABE01FEBDC7A004C7A7E /* Debug */,
+				72FAABE11FEBDC7A004C7A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72FAABB81FEBDC79004C7A7E /* TrueLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72FAABB91FEBDC79004C7A7E /* TrueLife.xcdatamodel */,
+			);
+			currentVersion = 72FAABB91FEBDC79004C7A7E /* TrueLife.xcdatamodel */;
+			path = TrueLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72FAABA61FEBDC79004C7A7E /* Project object */;
+}

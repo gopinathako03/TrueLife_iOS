@@ -1,0 +1,6 @@
+framework module Pods_TrueLifeUITests {
+  umbrella header "Pods-TrueLifeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
